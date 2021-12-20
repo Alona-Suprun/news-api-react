@@ -1,0 +1,80 @@
+.articlesList {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: left;
+  list-style: none;
+}
+
+.articleCard {
+  border-radius: 5px;
+  border: #eaeaea;
+  background-color: #fff;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(237, 236, 238, 0.397),
+    0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  width: calc((100% - 3 * 45px) / 3);
+  margin-right: 45px;
+  margin-bottom: 45px;
+  min-height: 500px;
+  overflow: hidden;
+}
+.articleCard:nth-child(3n) {
+  margin-right: 0;
+}
+
+.articleCard:hover,
+.articleCard:focus {
+  transform: scale(1.03);
+  box-shadow: 0 0 30px rgb(139, 139, 139);
+}
+
+.articleCardImage {
+  height: 217px;
+  width: 100%;
+  object-fit: cover;
+  text-decoration: none;
+}
+.date {
+  margin-bottom: 24px;
+  margin-left: 30px;
+  color: #363636;
+
+  opacity: 0.6;
+}
+.icon {
+  position: absolute;
+  top: 11%;
+  left: 25px;
+  transform: translateY(-11%);
+  fill: #363636;
+  opacity: 0.6;
+}
+.articleCardText {
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #363636;
+}
+.articleCardTitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 20px;
+}
+.summary {
+  margin-bottom: 20px;
+}
+.read {
+  font-weight: 800;
+}
+.title {
+  border-bottom: 1px solid rgb(197, 196, 196);
+  margin-top: 40px;
+  margin-bottom: 45px;
+}
+.cardText {
+  position: relative;
+  padding: 25px;
+}

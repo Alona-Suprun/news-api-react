@@ -1,0 +1,42 @@
+.searchbar {
+  top: 0;
+  left: 0;
+  position: sticky;
+  z-index: 1100;
+  background-color: #fff;
+}
+
+.searchForm {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.formLabel {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 20px;
+}
+.searchFormInput {
+  display: flex;
+
+  width: 600px;
+  font: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #fff;
+  border: 1px solid rgb(197, 196, 196);
+  border-radius: 5px;
+  padding: 13px 60px;
+  margin-top: 10px;
+}
+.icon {
+  position: absolute;
+  top: 75%;
+  left: 20px;
+  transform: translateY(-75%);
+}
+.searchFormInput::placeholder {
+  font: inherit;
+  font-size: 18px;
+}
